@@ -1,0 +1,13 @@
+<ion-view title="Create Playlist">
+    <ion-content padding="true" class="has-header">
+        <form id="create-form1" class="list">
+            <label class="item item-input" id="create-input1">
+                <input type="text" placeholder="Name" ng-model="data.name" required>
+            </label>
+            <label class="item item-input" id="create-input2">
+                <input type="text" placeholder="Description" ng-model="data.description" required>
+            </label>
+        </form>
+        <button id="create-button11" class="button button-positive button-block" ng-click="createPlaylist()">Save</button>
+    </ion-content>
+</ion-view>

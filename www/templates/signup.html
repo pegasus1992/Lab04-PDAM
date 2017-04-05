@@ -1,0 +1,13 @@
+<ion-view title="Sign up">
+    <ion-content padding="true" class="has-header">
+        <form id="signup-form1" class="list">
+            <label class="item item-input" id="signup-input1">
+                <input type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ng-model="data.email" required>
+            </label>
+            <label class="item item-input" id="signup-input2">
+                <input type="password" placeholder="Password" ng-model="data.password" required>
+            </label>
+        </form>
+        <button id="signup-button11" class="button button-balanced button-block" ng-click="signup(data)">Sign up</button>
+    </ion-content>
+</ion-view>
